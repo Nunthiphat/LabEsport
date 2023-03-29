@@ -16,5 +16,11 @@ namespace CSSESPORT
         {
             InitializeComponent();
         }
+
+        private void newPlayerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormInfo formInfo = new FormInfo();
+            formInfo.ShowDialog();
+        }
     }
 }

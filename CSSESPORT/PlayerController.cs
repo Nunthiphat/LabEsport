@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CSSESPORT
 {
-    internal class PlayerController
+    public class PlayerController
     {
+
     }
 }

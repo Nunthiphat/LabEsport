@@ -1,3 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
 namespace CSSESPORT
 {
     public partial class FormInfo : Form
@@ -5,6 +15,11 @@ namespace CSSESPORT
         public FormInfo()
         {
             InitializeComponent();
+        }
+
+        private void newPlayerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

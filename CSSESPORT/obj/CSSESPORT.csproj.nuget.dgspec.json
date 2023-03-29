@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\source code\\oop\\CSSESPORT\\CSSESPORT\\CSSESPORT.csproj": {}
+    "C:\\source code\\oop\\LabEsport\\CSSESPORT\\CSSESPORT.csproj": {}
   },
   "projects": {
-    "C:\\source code\\oop\\CSSESPORT\\CSSESPORT\\CSSESPORT.csproj": {
+    "C:\\source code\\oop\\LabEsport\\CSSESPORT\\CSSESPORT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\source code\\oop\\CSSESPORT\\CSSESPORT\\CSSESPORT.csproj",
+        "projectUniqueName": "C:\\source code\\oop\\LabEsport\\CSSESPORT\\CSSESPORT.csproj",
         "projectName": "CSSESPORT",
-        "projectPath": "C:\\source code\\oop\\CSSESPORT\\CSSESPORT\\CSSESPORT.csproj",
+        "projectPath": "C:\\source code\\oop\\LabEsport\\CSSESPORT\\CSSESPORT.csproj",
         "packagesPath": "C:\\Users\\natty\\.nuget\\packages\\",
-        "outputPath": "C:\\source code\\oop\\CSSESPORT\\CSSESPORT\\obj\\",
+        "outputPath": "C:\\source code\\oop\\LabEsport\\CSSESPORT\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\natty\\AppData\\Roaming\\NuGet\\NuGet.Config",
