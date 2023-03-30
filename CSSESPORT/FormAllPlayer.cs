@@ -29,6 +29,8 @@ namespace CSSESPORT
             {
                 Player newPlayer = formInfo.getPlayer();
                 this.listPlayer.Add(newPlayer);
+
+                this.dataGridView1.DataSource = null;
                 this.dataGridView1.DataSource = listPlayer;
                 formInfo.Close();
             }

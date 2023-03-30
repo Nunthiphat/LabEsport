@@ -28,15 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newPlayerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.playerBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.ColumnName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnLastname = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnMajor = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.playerBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -67,13 +70,15 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToOrderColumns = true;
+            this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ColumnName,
             this.ColumnLastname,
             this.ColumnMajor});
+            
             this.dataGridView1.Location = new System.Drawing.Point(12, 31);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
@@ -81,28 +86,35 @@
             this.dataGridView1.Size = new System.Drawing.Size(375, 362);
             this.dataGridView1.TabIndex = 1;
             // 
+            // playerBindingSource
+            // 
+            this.playerBindingSource.DataSource = typeof(CSSESPORT.Player);
+            // 
             // ColumnName
             // 
-            this.ColumnName.DataPropertyName = "name";
+            this.ColumnName.DataPropertyName = "Name";
             this.ColumnName.HeaderText = "Name";
             this.ColumnName.MinimumWidth = 6;
             this.ColumnName.Name = "ColumnName";
+            this.ColumnName.ReadOnly = true;
             this.ColumnName.Width = 125;
             // 
             // ColumnLastname
             // 
-            this.ColumnLastname.DataPropertyName = "lastname";
+            this.ColumnLastname.DataPropertyName = "Lastname";
             this.ColumnLastname.HeaderText = "Lastname";
             this.ColumnLastname.MinimumWidth = 6;
             this.ColumnLastname.Name = "ColumnLastname";
+            this.ColumnLastname.ReadOnly = true;
             this.ColumnLastname.Width = 125;
             // 
             // ColumnMajor
             // 
-            this.ColumnMajor.DataPropertyName = "major";
+            this.ColumnMajor.DataPropertyName = "Major";
             this.ColumnMajor.HeaderText = "Major";
             this.ColumnMajor.MinimumWidth = 6;
             this.ColumnMajor.Name = "ColumnMajor";
+            this.ColumnMajor.ReadOnly = true;
             this.ColumnMajor.Width = 125;
             // 
             // FormAllPlayer
@@ -118,6 +130,7 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.playerBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -129,6 +142,7 @@
         private ToolStripMenuItem fileToolStripMenuItem;
         private ToolStripMenuItem newPlayerToolStripMenuItem;
         private DataGridView dataGridView1;
+        private BindingSource playerBindingSource;
         private DataGridViewTextBoxColumn ColumnName;
         private DataGridViewTextBoxColumn ColumnLastname;
         private DataGridViewTextBoxColumn ColumnMajor;

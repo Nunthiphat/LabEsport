@@ -23,5 +23,9 @@ namespace CSSESPORT
             this.phone = phone;
             this.age = age;
         }
+        public string Name { get => name; }
+        public string Lastname { get => lastname;}
+        public string Major { get => major;}
+
     }
 }
