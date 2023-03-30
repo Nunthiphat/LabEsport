@@ -52,7 +52,7 @@
             this.button1.Location = new System.Drawing.Point(126, 312);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(125, 29);
-            this.button1.TabIndex = 29;
+            this.button1.TabIndex = 8;
             this.button1.Text = "Submit";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -62,7 +62,7 @@
             this.tbPhone.Location = new System.Drawing.Point(126, 227);
             this.tbPhone.Name = "tbPhone";
             this.tbPhone.Size = new System.Drawing.Size(125, 27);
-            this.tbPhone.TabIndex = 28;
+            this.tbPhone.TabIndex = 6;
             // 
             // label7
             // 
@@ -78,7 +78,7 @@
             this.tbMail.Location = new System.Drawing.Point(126, 194);
             this.tbMail.Name = "tbMail";
             this.tbMail.Size = new System.Drawing.Size(125, 27);
-            this.tbMail.TabIndex = 26;
+            this.tbMail.TabIndex = 5;
             // 
             // label6
             // 
@@ -94,7 +94,7 @@
             this.tbDisplayName.Location = new System.Drawing.Point(126, 161);
             this.tbDisplayName.Name = "tbDisplayName";
             this.tbDisplayName.Size = new System.Drawing.Size(125, 27);
-            this.tbDisplayName.TabIndex = 24;
+            this.tbDisplayName.TabIndex = 4;
             // 
             // label5
             // 
@@ -110,7 +110,7 @@
             this.tbMajor.Location = new System.Drawing.Point(126, 128);
             this.tbMajor.Name = "tbMajor";
             this.tbMajor.Size = new System.Drawing.Size(125, 27);
-            this.tbMajor.TabIndex = 22;
+            this.tbMajor.TabIndex = 3;
             // 
             // label4
             // 
@@ -126,7 +126,7 @@
             this.tbStudentID.Location = new System.Drawing.Point(126, 95);
             this.tbStudentID.Name = "tbStudentID";
             this.tbStudentID.Size = new System.Drawing.Size(125, 27);
-            this.tbStudentID.TabIndex = 20;
+            this.tbStudentID.TabIndex = 2;
             // 
             // label3
             // 
@@ -142,7 +142,7 @@
             this.tbLastName.Location = new System.Drawing.Point(126, 62);
             this.tbLastName.Name = "tbLastName";
             this.tbLastName.Size = new System.Drawing.Size(125, 27);
-            this.tbLastName.TabIndex = 18;
+            this.tbLastName.TabIndex = 1;
             // 
             // label2
             // 
@@ -158,7 +158,7 @@
             this.tbName.Location = new System.Drawing.Point(126, 29);
             this.tbName.Name = "tbName";
             this.tbName.Size = new System.Drawing.Size(125, 27);
-            this.tbName.TabIndex = 16;
+            this.tbName.TabIndex = 0;
             // 
             // label1
             // 
@@ -174,7 +174,7 @@
             this.tbAge.Location = new System.Drawing.Point(126, 260);
             this.tbAge.Name = "tbAge";
             this.tbAge.Size = new System.Drawing.Size(125, 27);
-            this.tbAge.TabIndex = 31;
+            this.tbAge.TabIndex = 7;
             // 
             // label8
             // 
