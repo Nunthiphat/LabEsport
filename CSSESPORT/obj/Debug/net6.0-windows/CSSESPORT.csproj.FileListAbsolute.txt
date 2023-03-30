@@ -16,3 +16,4 @@ C:\source code\oop\LabEsport\CSSESPORT\obj\Debug\net6.0-windows\refint\CSSESPORT
 C:\source code\oop\LabEsport\CSSESPORT\obj\Debug\net6.0-windows\CSSESPORT.pdb
 C:\source code\oop\LabEsport\CSSESPORT\obj\Debug\net6.0-windows\CSSESPORT.genruntimeconfig.cache
 C:\source code\oop\LabEsport\CSSESPORT\obj\Debug\net6.0-windows\ref\CSSESPORT.dll
+C:\source code\oop\LabEsport\CSSESPORT\obj\Debug\net6.0-windows\CSSESPORT.ApplicationForm.resources

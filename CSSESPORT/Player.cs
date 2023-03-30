@@ -25,7 +25,6 @@ namespace CSSESPORT
         }
         public string Name { get => name;}
         public string Lastname { get => lastname;}
-        public string Major { get => major;}
-
+        public string Major { get => major; }
     }
 }
